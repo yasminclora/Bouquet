@@ -51,7 +51,7 @@ router.post("/bouquet/addFleur", (req, res) => {
     quantite: parseInt(quantite || 1, 10)
   });
 
-  res.json({ message: "Fleur ajoutée", draft: req.session.bouquetDraft });
+  res.json({ message: "Fleur bien ajoutée", draft: req.session.bouquetDraft });
 });
 
 
